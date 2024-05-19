@@ -28,5 +28,9 @@ let name = input.question("Enter your name: ");
 
 let lastName = input.question("Enter your last name: ");
 
-console.log("Hello "+name+" " +lastName+"!");
+console.log("first name: ",name);
+console.log("last name: ",lastName);
+console.log("last,first: ",lastName+","+name);
+
+
 
