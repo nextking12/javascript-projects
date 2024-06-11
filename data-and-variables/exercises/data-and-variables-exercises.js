@@ -16,26 +16,18 @@ let distanceToMarsKm = 225000000;
 let distanceToMoonKm = 38400;
 const milesPerKm = 0.621;
 
-/*console.log(typeof(shuttleName));
+console.log(typeof(shuttleName));
 console.log(typeof(shuttleSpeedMph));
 console.log(typeof(distanceToMarsKm));
 console.log(typeof(distanceToMoonKm));
-console.log(typeof(milesPerKm));*/
+console.log(typeof(milesPerKm));
 
-/*let milesToMars = distanceToMarsKm * milesPerKm;
+let milesToMars = distanceToMarsKm * milesPerKm;
 let hoursToMars = milesToMars / shuttleSpeedMph;
-let daysToMars = hoursToMars / 24;*/
+let daysToMars = hoursToMars / 24;
 
 /*let milesToMoon = distanceToMoonKm * milesPerKm;
 let hoursToMoon = milesToMoon / shuttleSpeedMph;
 let daysToMoon = hoursToMoon / 24;*/
 
-//console.log(shuttleName+" will take "+daysToMoon+" days to reach the Moon.");
-//console.log(Coding Rocks);
-
-//console.log(Number('3 3'));
-
-let day = "Thursday";
-day = 32.5;
-day = 19;
-console.log(day);
+console.log(shuttleName+" will take "+daysToMars+" days to reach the Mars.");
