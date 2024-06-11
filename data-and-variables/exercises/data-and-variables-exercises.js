@@ -26,8 +26,16 @@ console.log(typeof(milesPerKm));*/
 let hoursToMars = milesToMars / shuttleSpeedMph;
 let daysToMars = hoursToMars / 24;*/
 
-let milesToMoon = distanceToMoonKm * milesPerKm;
+/*let milesToMoon = distanceToMoonKm * milesPerKm;
 let hoursToMoon = milesToMoon / shuttleSpeedMph;
-let daysToMoon = hoursToMoon / 24;
+let daysToMoon = hoursToMoon / 24;*/
 
-console.log(shuttleName+" will take "+daysToMoon+" days to reach the Moon.");
+//console.log(shuttleName+" will take "+daysToMoon+" days to reach the Moon.");
+//console.log(Coding Rocks);
+
+//console.log(Number('3 3'));
+
+let day = "Thursday";
+day = 32.5;
+day = 19;
+console.log(day);
