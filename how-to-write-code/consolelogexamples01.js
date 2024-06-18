@@ -22,7 +22,7 @@ console.log(day);*/
 
 //console.log(2 ** 2 ** 3 * 3)
 
-const input = require('readline-sync');
+/*const input = require('readline-sync');
 
 let name = input.question("Enter your name: ");
 
@@ -30,7 +30,23 @@ let lastName = input.question("Enter your last name: ");
 
 console.log("first name: ",name);
 console.log("last name: ",lastName);
-console.log("last,first: ",lastName+","+name);
+console.log("last,first: ",lastName+","+name);*/
+
+/*const input = require('readline-sync');
+
+let num1 = Number(input.question("Enter a number: "));
+let num2 = Number(input.question("Enter another number: "));
+
+console.log(num1 + num2);*/
+
+const input = require('readline-sync');
+
+let info = input.question("Please enter your age: ");
+//The user enters 25.
+
+console.log(typeof info);
+
+
 
 
 
