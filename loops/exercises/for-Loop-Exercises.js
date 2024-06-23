@@ -3,8 +3,21 @@
     b. Print only the ODD values from 3 - 29, one number per line.
     c. Print the EVEN numbers 12 to -14 in descending order, one number per line.
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
+//for (let i = 0; i < 21; i ++) {
+  //console.log(i);
+//}
 
+/*for (let i = 3; i < 30; i++){
+  if (i % 2 != 0){
+    console.log(i);
+  }
+}*/
 
+/*for (let i = 12; i > -15; i--){
+  if (i % 2 === 0){
+    console.log(i);
+  }
+}*/
 
 
 /*Exercise #2: 
