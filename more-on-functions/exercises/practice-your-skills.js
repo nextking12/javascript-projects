@@ -1,5 +1,17 @@
 //Create an anonymous function and set it equal to a variable.
+let anonFunction = function (num) {
+    let funcArray = [];
+    if (typeof num === "number") {
+        
+        funcArray += (num * 3)
+      };
 
+    if (typeof num === "string") {
+        funcArray += ("ARRR!")
+        };
+    return funcArray;    
+}
+//console.log(anonFunction("8"));
 /* Your function should:
 a) If passed a number, return the tripled value.
 b) If passed a string, return the string “ARRR!”
@@ -13,3 +25,7 @@ c) Print the new array to confirm your work.
 */
 
 let arr = ['Elocution', 21, 'Clean teeth', 100];
+
+let mappedArray = arr.map(anonFunction);
+
+console.log(mappedArray);
