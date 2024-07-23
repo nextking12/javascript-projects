@@ -6,4 +6,5 @@ function reverse(str) {
    return reverse(str) === str;
  }
  
+ console.log(isPalindrome("a"));
  module.exports = isPalindrome;

@@ -63,22 +63,32 @@ console.log(misplacedFuel);
 
 let lostAndFoundCargo = function (array) {
   let acqiredCargo = [];
-  if (array.includes("gold") || array.includes("satellite")) {
-    acqiredCargo.unshift("gold", "satellite");
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === "gold" || array[i] === "satellite") {
+    acqiredCargo += array[(i)];
+   // cargoHold.splice(indexOf(array[i]));
+   // array.splce(indexOf(array[i]));
+     // if (array[i] === "gold" || array[i] === "satellite"){
+          //array.splice(array.indexOf(i));
+      }
+  //}
+    //if (array.includes("gold") || array.includes("satellite")) {
+    //acqiredCargo.unshift("gold", "satellite");
    // array.splice().indexOf("gold", "satellite")
-  } 
-  if (array.includes("gold") || array.includes("satellite")){
-    array.splice(array.indexOf("gold"));
-    array.splice(array.indexOf("satellite"));
-    array.unshift("potatoes", "sneakers");
-  } 
+ // } 
+   /* if (array.includes("gold") || array.includes("satellite")){
+      array.splice(array.indexOf("gold"));
+      array.splice(array.indexOf("satellite"));
+      array.unshift("potatoes", "sneakers");
+  } */
+}
   return acqiredCargo;
 }
 let newStuff = lostAndFoundCargo(cargoHold);
 console.log(newStuff);
 console.log(cargoHold);
 
-//Finally, you need to print a receipt for the accountant. Don’t laugh! That genius knows MATH and saves us more gold than you can imagine.
+/*//Finally, you need to print a receipt for the accountant. Don’t laugh! That genius knows MATH and saves us more gold than you can imagine.
  
 
  
@@ -86,6 +96,4 @@ console.log(cargoHold);
 	
 //b). Call your anonymous fuel and cargo functions from within irs.
 
-//c). Use a template literal to return, "Raided _____ kg of fuel from the tanks, and stole ____ and ____ from the cargo hold."
-
-
+//c). Use a template literal to return, "Raided _____ kg of fuel from the tanks, and stole ____ and ____ from the cargo hold*/

@@ -10,21 +10,21 @@
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 function reverseCharacters(text){
     let newText = text;
-    if (typeof text === String){
-        newText = text.split("");
-        newText = newText.reverse();
-        newText = newText.join("");
+    if (typeof newText === String){
+        newText = newText.split("").reverse().join("");
+       // newText = newText.reverse();
+        //newText = newText.join("");
 
-    } else if (typeof text === Number) {
-        newText = String(text)
-        newText = text.split("");
+    } else if (typeof newText === Number) {
+        newText = String(newText)
+        newText = newText.split("");
         newText = newText.reverse();
         newText = newText.join("");
     }
        return newText
     };
 
-console.log(reverseCharacters("King"));
+console.log(reverseCharacters('King'));
 
 // Part Two: Reverse Digits
 
