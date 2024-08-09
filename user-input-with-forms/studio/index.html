@@ -6,6 +6,15 @@
 		// TODO: create a handler
     window.addEventListener("load", function(){
         // TODO: register the handler
+		let searchForm = document.getElementById("searchForm");
+		let goog
+		searchForm.addEventListener("submit", function(){
+			if (searchForm.value === "google"){
+				searchForm.action = "https://www.google.com/search?";
+			};
+
+		});
+
     });
 	</script>
 </head>
@@ -14,6 +23,24 @@
 
 	<form id="searchForm">
     <!-- TODO: add form elements -->
+	<input type="text" name="q">
+	<label>
+		<input type="radio" name="engine" value="google">
+		Google
+	</label>
+	<label>
+		<input type="radio" name="engine" value="duckduckgo">
+		DuckDuckGo
+	</label>
+	<label>
+		<input type="radio" name="engine" value="bing">
+		Bing
+	</label>
+	<label>
+		<input type="radio" name="engine" value="ask">
+		Ask
+	</label>
+	<button>Go!</button>
 	</form>
 
 </body>
